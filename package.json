@@ -1,0 +1,16 @@
+{
+  "name": "css-file-rules-webpack-separator",
+  "version": "0.0.1",
+  "description": "Webpack plugin for separating css files if there are more than 4096 rules",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "css",
+    "ie9"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bless": "^3.0.3",
+    "webpack": "^1.10.1"
+  }
+}
