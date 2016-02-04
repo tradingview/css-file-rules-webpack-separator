@@ -4,14 +4,14 @@
 npm install css-file-rules-webpack-separator --save-dev
 ```
 
-```
-require('css-file-rules-webpack-separator')
+```javascript
+const CssFileRulesSeparator = require('css-file-rules-webpack-separator');
 
-{
+module.exports = {
   ...
   plugins: [
     new CssFileRulesSeparator()
   ],
   ...
-}
+};
 ```
