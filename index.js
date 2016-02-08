@@ -10,14 +10,6 @@ CssFileRulesSeparator.prototype._chunkFileName = function (originalName) {
     return originalName.replace(/\.css$/, '') + '-part.css';
 };
 
-CssFileRulesSeparator.prototype._unique = function (files) {
-    function _onlyUnique(value, index, self) {
-        return self.indexOf(value) === index;
-    };
-
-    return files.filter(_onlyUnique);
-};
-
 CssFileRulesSeparator.prototype.apply = function (compiler) {
     var that = this;
 
