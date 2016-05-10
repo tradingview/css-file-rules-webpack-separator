@@ -11,7 +11,7 @@
   ],
   "repository" : {
     "type": "git",
-    "url": "https://github.com/ONE001/css-file-rules-webpack-separator"
+    "url": "https://github.com/tradingview/css-file-rules-webpack-separator.git"
   },
   "license": "MIT",
   "dependencies": {
