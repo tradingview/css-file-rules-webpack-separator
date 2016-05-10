@@ -1,6 +1,6 @@
 {
   "name": "css-file-rules-webpack-separator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Maxim Karpinskiy Karpinski20@gmail.com",
   "description": "Webpack plugin for separating css files if there are more than 4096 rules",
   "main": "index.js",
